@@ -1,0 +1,4 @@
+# Явно указываем зависимости библиотеки ConfigCommandLineParser
+add_library(ConfigCommandLineParser ConfigCommandLineParser.cpp)
+target_include_directories(ConfigCommandLineParser PUBLIC ${PROJECT_SOURCE_DIR})
+target_link_libraries(ConfigCommandLineParser PRIVATE Boost::program_options)

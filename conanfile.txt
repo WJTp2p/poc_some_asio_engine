@@ -1,0 +1,7 @@
+[requires]
+boost/1.76.0
+gtest/1.11.0
+nlohmann_json/3.9.1
+
+[generators]
+cmake
